@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+client/build/
+server/dist/
+
+# AI editor/tool files
+server/.agents/
+server/.claude/
+server/.windsurf/
+
+# Uploaded files
+server/uploads/
